@@ -11,37 +11,43 @@ export default function Home() {
       icon: Globe,
       title: "Professional Websites",
       description: "Beautiful, responsive websites that showcase your business and convert visitors into customers.",
-      price: "From R 2,000"
+      price: "From R 2,000",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-web-design-MzxKZLzPurvZKEacwSof42.webp"
     },
     {
       icon: ShoppingCart,
       title: "Online Store Setup",
       description: "Full e-commerce solutions with product management, payment integration, and order tracking.",
-      price: "From R 2,000"
+      price: "From R 2,000",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-ecommerce-DBAQ7cjwRadMJSWVxUt4f5.webp"
     },
     {
       icon: Users,
       title: "Social Media Management",
       description: "Strategic Facebook & Instagram management with engaging content and community building.",
-      price: "From R 800/month"
+      price: "From R 800/month",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-social-media-aF3wZkrYDVn3PFecyZftsw.webp"
     },
     {
       icon: Palette,
       title: "Logo & Design",
       description: "Professional branding assets including logos, posters, and marketing materials.",
-      price: "From R 300"
+      price: "From R 300",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-web-design-MzxKZLzPurvZKEacwSof42.webp"
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description: "Complete digital marketing support including SEO, content strategy, and lead generation.",
-      price: "From R 800/month"
+      price: "From R 800/month",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-social-media-aF3wZkrYDVn3PFecyZftsw.webp"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp Marketing",
       description: "Advanced WhatsApp business integration for direct customer engagement and sales.",
-      price: "Custom pricing"
+      price: "Custom pricing",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-ecommerce-DBAQ7cjwRadMJSWVxUt4f5.webp"
     }
   ];
 
@@ -87,24 +93,28 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 md:py-32 bg-gradient-to-br from-blue-50 via-white to-blue-50">
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full opacity-30 blur-3xl"></div>
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-100 rounded-full opacity-30 blur-3xl"></div>
+      <section className="relative overflow-hidden py-20 md:py-32">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/hero-background-c7rU5RfvMWxy8faUDeHyQt.webp"
+            alt="Team collaboration"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
         
         <div className="container relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-block mb-6 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+          <div className="max-w-3xl mx-auto text-center text-white">
+            <div className="inline-block mb-6 px-4 py-2 bg-white/20 backdrop-blur text-white rounded-full text-sm font-medium">
               ✨ Helping Small Businesses Thrive Online
             </div>
             
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Get More Customers Online<br />
-              <span className="text-blue-600">Without Spending Thousands</span>
+              <span className="text-blue-200">Without Spending Thousands</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               I help small businesses, startups, and home-based entrepreneurs build a powerful online presence that attracts customers and drives growth.
             </p>
             
@@ -119,7 +129,7 @@ export default function Home() {
               <Button 
                 size="lg"
                 variant="outline"
-                className="rounded-lg h-12 px-8"
+                className="rounded-lg h-12 px-8 bg-white/10 text-white border-white hover:bg-white/20"
               >
                 View Our Work
               </Button>
@@ -150,6 +160,14 @@ export default function Home() {
                   onMouseEnter={() => setHoveredService(idx)}
                   onMouseLeave={() => setHoveredService(null)}
                 >
+                  <div className="h-40 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50">
+                    <img 
+                      src={service.image}
+                      alt={service.title}
+                      className={`w-full h-full object-cover transition-transform duration-300 ${hoveredService === idx ? 'scale-110' : 'scale-100'}`}
+                    />
+                  </div>
+                  
                   <div className={`absolute inset-0 bg-gradient-to-br from-blue-50 to-transparent opacity-0 transition-opacity duration-300 ${hoveredService === idx ? 'opacity-100' : ''}`}></div>
                   
                   <CardHeader className="relative">
@@ -200,8 +218,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-r from-blue-600 to-blue-700">
-        <div className="container">
+      <section className="relative overflow-hidden py-20 md:py-32">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/cta-background-7r9cWQE32xQY8in2aJbNLo.webp"
+            alt="Success background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-blue-600/80"></div>
+        </div>
+
+        <div className="container relative z-10">
           <div className="max-w-2xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to Grow Your Business Online?
