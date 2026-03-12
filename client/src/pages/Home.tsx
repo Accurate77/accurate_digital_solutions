@@ -12,42 +12,42 @@ export default function Home() {
       title: "Professional Websites",
       description: "Beautiful, responsive websites that showcase your business and convert visitors into customers.",
       price: "From R 2,000",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-web-design-MzxKZLzPurvZKEacwSof42.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-web-design-new-ZGfiLk4rd8QVPXzcdTH92x.webp"
     },
     {
       icon: ShoppingCart,
       title: "Online Store Setup",
       description: "Full e-commerce solutions with product management, payment integration, and order tracking.",
       price: "From R 2,000",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-ecommerce-DBAQ7cjwRadMJSWVxUt4f5.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-ecommerce-new-VLQWfvBHAQNDNAxk9A5jDP.webp"
     },
     {
       icon: Users,
       title: "Social Media Management",
       description: "Strategic Facebook & Instagram management with engaging content and community building.",
       price: "From R 800/month",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-social-media-aF3wZkrYDVn3PFecyZftsw.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-social-media-new-adMQGmsscZiJcAg2BNdqgw.webp"
     },
     {
       icon: Palette,
       title: "Logo & Design",
       description: "Professional branding assets including logos, posters, and marketing materials.",
       price: "From R 300",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-web-design-MzxKZLzPurvZKEacwSof42.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-branding-new-3cgxCZiisxSaYSiLZbNNkQ.webp"
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description: "Complete digital marketing support including SEO, content strategy, and lead generation.",
       price: "From R 800/month",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-social-media-aF3wZkrYDVn3PFecyZftsw.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-marketing-new-7FmfuJZuPGa5zZpYDyrnd2.webp"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp Marketing",
       description: "Advanced WhatsApp business integration for direct customer engagement and sales.",
       price: "Custom pricing",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/services-ecommerce-DBAQ7cjwRadMJSWVxUt4f5.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-web-design-new-ZGfiLk4rd8QVPXzcdTH92x.webp"
     }
   ];
 
@@ -55,17 +55,20 @@ export default function Home() {
     {
       name: "EMK Signage & Welding",
       description: "Professional website with service showcase and lead generation",
-      url: "emksignagewelding.co.za"
+      url: "emksignagewelding.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
     },
     {
       name: "Eat n Smile Food Truck",
       description: "Brand identity and online presence for food business",
-      url: "#"
+      url: "#",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
     },
     {
       name: "Luntu Jozi",
       description: "Social media branding and promotional content",
-      url: "#"
+      url: "#",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-luntu-showcase-ZPjNpgsBBNDCUEL89osD4R.webp"
     }
   ];
 
@@ -238,15 +241,23 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {portfolio.map((project, idx) => (
-              <div key={idx} className="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow border border-slate-200">
-                <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 mb-4 shadow-md"></div>
-                <h3 className="text-xl font-bold text-foreground mb-2">{project.name}</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">{project.description}</p>
-                {project.url !== "#" && (
-                  <a href={`https://${project.url}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-sm flex items-center gap-2 transition-colors">
-                    Visit Site <ArrowRight className="w-4 h-4" />
-                  </a>
-                )}
+              <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-slate-200 group">
+                <div className="h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50 relative">
+                  <img 
+                    src={project.image}
+                    alt={project.name}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-2">{project.name}</h3>
+                  <p className="text-muted-foreground mb-6 leading-relaxed text-sm">{project.description}</p>
+                  {project.url !== "#" && (
+                    <a href={`https://${project.url}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold text-sm flex items-center gap-2 transition-colors">
+                      Visit Site <ArrowRight className="w-4 h-4" />
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>
