@@ -85,9 +85,11 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border shadow-sm">
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center shadow-md">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/Mypicture_a60b030d.jpg"
+              alt="Accurate Rangarira"
+              className="w-10 h-10 rounded-lg object-cover shadow-md border-2 border-blue-600"
+            />
             <div>
               <h1 className="font-bold text-lg text-foreground">Accurate Digital</h1>
               <p className="text-xs text-muted-foreground">Solutions</p>
@@ -223,6 +225,63 @@ export default function Home() {
                 </Card>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* How We Help Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              How We Help Businesses Grow Online
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Our proven 4-step process ensures your business gets the right strategy, content, promotion, and continuous growth
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            {[
+              {
+                step: "Step 1",
+                title: "Strategy & Planning",
+                description: "We analyse your business goals and create a digital marketing strategy tailored to your brand.",
+                icon: "🎯"
+              },
+              {
+                step: "Step 2",
+                title: "Content Creation",
+                description: "We design engaging content, visuals, and campaigns that connect with your target audience.",
+                icon: "✨"
+              },
+              {
+                step: "Step 3",
+                title: "Digital Marketing",
+                description: "We promote your brand using social media, online advertising, and SEO strategies.",
+                icon: "📱"
+              },
+              {
+                step: "Step 4",
+                title: "Growth & Optimization",
+                description: "We track performance and continuously improve campaigns to help your business grow.",
+                icon: "📈"
+              }
+            ].map((item, idx) => (
+              <div key={idx} className="relative">
+                {/* Connection line */}
+                {idx < 3 && (
+                  <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-gradient-to-r from-blue-600 to-transparent"></div>
+                )}
+                
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center relative z-10">
+                  <div className="text-4xl mb-4">{item.icon}</div>
+                  <p className="text-sm font-semibold text-blue-600 mb-2">{item.step}</p>
+                  <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
