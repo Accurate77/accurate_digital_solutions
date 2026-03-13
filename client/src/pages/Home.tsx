@@ -178,8 +178,14 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 md:py-32">
-        <div className="container">
+      <section className="py-20 md:py-32 bg-gradient-to-br from-white via-blue-50 to-blue-100 relative overflow-hidden">
+        {/* Decorative background pattern */}
+        <div className="absolute inset-0 opacity-25">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute top-1/2 -left-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute -bottom-40 right-1/3 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Services
@@ -195,7 +201,7 @@ export default function Home() {
               return (
                 <Card 
                   key={idx}
-                  className="relative overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-blue-300 cursor-pointer group"
+                  className="relative overflow-hidden transition-all duration-500 hover:shadow-2xl hover:border-blue-400 hover:-translate-y-2 cursor-pointer group bg-white/80 backdrop-blur-sm border-2 border-blue-100"
                   onMouseEnter={() => setHoveredService(idx)}
                   onMouseLeave={() => setHoveredService(null)}
                 >
@@ -310,13 +316,14 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {portfolio.map((project, idx) => (
-              <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-slate-200 group">
+              <div key={idx} className="bg-white/90 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border-2 border-blue-100 group">
                 <div className="h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50 relative">
                   <img 
                     src={project.image}
                     alt={project.name}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-foreground mb-2">{project.name}</h3>
