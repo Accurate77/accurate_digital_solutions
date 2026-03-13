@@ -230,8 +230,13 @@ export default function Home() {
       </section>
 
       {/* How We Help Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="container">
+      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 relative overflow-hidden">
+        {/* Decorative background pattern */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               How We Help Businesses Grow Online
@@ -287,8 +292,13 @@ export default function Home() {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-slate-50 to-slate-100">
-        <div className="container">
+      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-100 via-blue-50 to-white relative overflow-hidden">
+        {/* Decorative background pattern */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-10 left-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Recent Projects
