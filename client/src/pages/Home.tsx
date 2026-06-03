@@ -56,43 +56,43 @@ export default function Home() {
       name: "Accurate Digital Solutions",
       description: "Professional digital marketing agency website",
       url: "accuratedigitalsolutions.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_accurate_digital-KstNwwdZK5aKMGkBseZhfU.webp"
     },
     {
       name: "Transformed Cooling",
       description: "HVAC services website with service showcase",
       url: "transformedcooling.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_transformed_cooling-UMRjijD2idhFkyqRTDWLYN.webp"
     },
     {
       name: "Joe's Fresh Produce",
       description: "Fresh produce delivery and e-commerce platform",
       url: "joesfreshproduce.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_joes_fresh_produce-9BzaHuTEdtbb7foPDJnWTQ.webp"
     },
     {
       name: "Glow Mani Nails",
       description: "Beauty salon website with booking system",
       url: "glowmaninails.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_glow_mani_nails-nHgqAdja69ox6dBMyiHpEB.webp"
     },
     {
       name: "Accura Plumbing",
       description: "Plumbing services website with service catalog",
       url: "accuraplumbing.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_accura_plumbing-6BsB8u7brZgd35TgWhFgYs.webp"
     },
     {
       name: "Raderies E",
       description: "E-commerce platform for retail business",
       url: "raderies-e.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_raderies_e-ghogks97LMqDEaQWBuCVUj.webp"
     },
     {
       name: "EMK Signage & Welding",
       description: "Professional website with service showcase and lead generation",
       url: "emksignagewelding.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_emk_signage-HHD6LQmNCLyK5nidYmXW7o.webp"
     }
   ];
 
