@@ -53,22 +53,46 @@ export default function Home() {
 
   const portfolio = [
     {
+      name: "Accurate Digital Solutions",
+      description: "Professional digital marketing agency website",
+      url: "accuratedigitalsolutions.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+    },
+    {
+      name: "Transformed Cooling",
+      description: "HVAC services website with service showcase",
+      url: "transformedcooling.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+    },
+    {
+      name: "Joe's Fresh Produce",
+      description: "Fresh produce delivery and e-commerce platform",
+      url: "joesfreshproduce.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+    },
+    {
+      name: "Glow Mani Nails",
+      description: "Beauty salon website with booking system",
+      url: "glowmaninails.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+    },
+    {
+      name: "Accura Plumbing",
+      description: "Plumbing services website with service catalog",
+      url: "accuraplumbing.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
+    },
+    {
+      name: "Raderies E",
+      description: "E-commerce platform for retail business",
+      url: "raderies-e.co.za",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
+    },
+    {
       name: "EMK Signage & Welding",
       description: "Professional website with service showcase and lead generation",
       url: "emksignagewelding.co.za",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-emk-showcase-DWDsgmEdsaEK6aCA5UHhCT.webp"
-    },
-    {
-      name: "Eat n Smile Food Truck",
-      description: "Brand identity and online presence for food business",
-      url: "#",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-eatnsmile-showcase-SiiUoBayBB8jADLPSo6QPq.webp"
-    },
-    {
-      name: "Luntu Jozi",
-      description: "Social media branding and promotional content",
-      url: "#",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/project-luntu-showcase-ZPjNpgsBBNDCUEL89osD4R.webp"
     }
   ];
 
@@ -410,6 +434,14 @@ export default function Home() {
                 <li><a href="tel:+27613218108" className="hover:text-background transition flex items-center gap-2"><Phone className="w-4 h-4" /> +27 61 321 8108</a></li>
                 <li><a href="mailto:rangarira.nr@gmail.com" className="hover:text-background transition flex items-center gap-2"><Mail className="w-4 h-4" /> rangarira.nr@gmail.com</a></li>
                 <li><a href="https://wa.me/27613218108" className="hover:text-background transition flex items-center gap-2"><MessageCircle className="w-4 h-4" /> WhatsApp</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Follow Us</h4>
+              <ul className="space-y-2 text-background/80">
+                <li><a href="https://www.facebook.com/share/14i1YJedob7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Facebook</a></li>
+                <li><a href="https://www.instagram.com/glowmani_nail_bar?igsh=Z2tqNXpvZ2J0cHBq&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Instagram</a></li>
+                <li><a href="http://linkedin.com/in/accurate-ngaakudzwe-rangarira-1bab44372" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">LinkedIn</a></li>
               </ul>
             </div>
           </div>
