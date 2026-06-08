@@ -84,9 +84,9 @@ export default function Home() {
     },
     {
       name: "Raderies E",
-      description: "E-commerce platform for retail business",
+      description: "Professional electrical services and installations",
       url: "raderies-e.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_raderies_e-ghogks97LMqDEaQWBuCVUj.webp"
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_raderies_e_electrical-Rn3hdNqP4etKummhsHH5yt.webp"
     },
     {
       name: "EMK Signage & Welding",
