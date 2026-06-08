@@ -54,7 +54,7 @@ export default function Home() {
   const portfolio = [
     {
       name: "Accurate Digital Solutions",
-      description: "Professional digital marketing agency website",
+      description: "My Agency - Professional digital marketing & web development services",
       url: "accuratedigitalsolutions.co.za",
       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_accurate_digital-KstNwwdZK5aKMGkBseZhfU.webp"
     },
