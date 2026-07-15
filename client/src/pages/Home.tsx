@@ -110,13 +110,12 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/Mypicture_a60b030d.jpg"
-              alt="Accurate Rangarira"
-              className="w-10 h-10 rounded-lg object-cover shadow-md border-2 border-blue-600"
+              src="/manus-storage/IMG_5457_f61b0c15.JPG"
+              alt="Accurate Digital Solutions Logo"
+              className="w-12 h-12 object-contain"
             />
             <div>
-              <h1 className="font-bold text-lg text-foreground">Accurate Digital</h1>
-              <p className="text-xs text-muted-foreground">Solutions</p>
+              <h1 className="font-bold text-lg text-foreground">Accurate Digital Solutions</h1>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -153,7 +152,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center text-white">
             <div className="inline-block mb-6 px-4 py-2 bg-white/20 backdrop-blur text-white rounded-full text-sm font-medium border border-white/30">
-              ✨ Helping Small Businesses Thrive Online
+              ✨ Helping Businesses Grow Online
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -261,11 +260,6 @@ export default function Home() {
 
       {/* How We Help Section */}
       <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 relative overflow-hidden">
-        {/* Decorative background pattern */}
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
-        </div>
         <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -276,44 +270,41 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+                    <div className="grid md:grid-cols-4 gap-6">
             {[
               {
                 step: "Step 1",
                 title: "Strategy & Planning",
                 description: "We analyse your business goals and create a digital marketing strategy tailored to your brand.",
-                icon: "🎯"
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_strategy_planning-gPj79dkFXQz486w8AaVQP6.webp"
               },
               {
                 step: "Step 2",
                 title: "Content Creation",
                 description: "We design engaging content, visuals, and campaigns that connect with your target audience.",
-                icon: "✨"
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_content_creation-gYPYVD27mwgkvBDy9QtJEC.webp"
               },
               {
                 step: "Step 3",
                 title: "Digital Marketing",
                 description: "We promote your brand using social media, online advertising, and SEO strategies.",
-                icon: "📱"
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_digital_marketing-T6X9LCeHNyvNBiGH834G2H.webp"
               },
               {
                 step: "Step 4",
                 title: "Growth & Optimization",
                 description: "We track performance and continuously improve campaigns to help your business grow.",
-                icon: "📈"
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_growth_optimization-8wMEJnisSsKojornbLmEXn.webp"
               }
             ].map((item, idx) => (
               <div key={idx} className="relative">
-                {/* Connection line */}
-                {idx < 3 && (
-                  <div className="hidden md:block absolute top-12 left-1/2 w-full h-0.5 bg-gradient-to-r from-blue-600 to-transparent"></div>
-                )}
-                
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center relative z-10">
-                  <div className="text-4xl mb-4">{item.icon}</div>
-                  <p className="text-sm font-semibold text-blue-600 mb-2">{item.step}</p>
-                  <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow h-full border border-blue-100">
+                  <img src={item.image} alt={item.title} className="w-full h-40 object-cover" />
+                  <div className="p-6">
+                    <p className="text-sm font-semibold text-blue-600 mb-2">{item.step}</p>
+                    <h3 className="text-lg font-bold text-foreground mb-3">{item.title}</h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                  </div>
                 </div>
               </div>
             ))}
