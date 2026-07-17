@@ -294,7 +294,7 @@ export default function Home() {
                 step: "Step 4",
                 title: "Growth & Optimization",
                 description: "We track performance and continuously improve campaigns to help your business grow.",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_growth_optimization-8wMEJnisSsKojornbLmEXn.webp"
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/growth-optimization-MqprAmiFn964f55CwgQuRD.webp"
               }
             ].map((item, idx) => (
               <div key={idx} className="relative">
