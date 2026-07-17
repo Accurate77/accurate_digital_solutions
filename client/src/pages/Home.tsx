@@ -110,7 +110,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="/manus-storage/IMG_5457_f61b0c15.JPG"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/IMG_5457-mKnGvDyVBfJVnPHhHKRKwH.webp"
               alt="Accurate Digital Solutions Logo"
               className="w-12 h-12 object-contain"
             />
@@ -161,7 +161,7 @@ export default function Home() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/95 mb-10 max-w-2xl mx-auto leading-relaxed">
-              I help small businesses, startups, and home-based entrepreneurs build a powerful online presence that attracts customers and drives growth.
+              We help small businesses, startups, and home-based entrepreneurs build a powerful online presence that attracts customers and drives growth.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -263,7 +263,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              How We Help Businesses Grow Online
+              Helping Businesses Grow Online
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Our proven 4-step process ensures your business gets the right strategy, content, promotion, and continuous growth
