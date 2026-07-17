@@ -110,9 +110,9 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/IMG_5457-mKnGvDyVBfJVnPHhHKRKwH.webp"
+              src="/manus-storage/IMG_5457_5b7099f3.JPG"
               alt="Accurate Digital Solutions Logo"
-              className="w-12 h-12 object-contain"
+              className="w-12 h-12 object-contain rounded-lg"
             />
             <div>
               <h1 className="font-bold text-lg text-foreground">Accurate Digital Solutions</h1>
@@ -152,7 +152,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center text-white">
             <div className="inline-block mb-6 px-4 py-2 bg-white/20 backdrop-blur text-white rounded-full text-sm font-medium border border-white/30">
-              ✨ Helping Businesses Grow Online
+              Helping Businesses Grow Online
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -430,8 +430,8 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Follow Us</h4>
               <ul className="space-y-2 text-background/80">
-                <li><a href="https://www.facebook.com/share/14i1YJedob7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Facebook</a></li>
-                <li><a href="https://www.instagram.com/glowmani_nail_bar?igsh=Z2tqNXpvZ2J0cHBq&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Instagram</a></li>
+                <li><a href="https://www.facebook.com/share/17r8uaFM3U/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Facebook</a></li>
+                <li><a href="https://www.instagram.com/accurate.digital.solutions?igsh=YmE5OGRzc2hxY3c%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">Instagram</a></li>
                 <li><a href="http://linkedin.com/in/accurate-ngaakudzwe-rangarira-1bab44372" target="_blank" rel="noopener noreferrer" className="hover:text-background transition">LinkedIn</a></li>
               </ul>
             </div>
