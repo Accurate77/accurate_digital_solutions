@@ -110,7 +110,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="/manus-storage/IMG_5457_5b7099f3.JPG"
+              src="/manus-storage/IMG_5457_a21c05c4.JPG"
               alt="Accurate Digital Solutions Logo"
               className="w-12 h-12 object-contain rounded-lg"
             />
