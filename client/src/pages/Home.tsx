@@ -355,6 +355,92 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Case Studies Section */}
+      <section className="py-20 md:py-32 bg-gradient-to-br from-white via-blue-50 to-blue-100 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+          <div className="absolute top-1/2 -left-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        <div className="container relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Social Media & Content Success Stories
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Real results from our social media management and content creation work
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
+              {
+                client: "Glow Mani Nails",
+                service: "Instagram Management & Content Creation",
+                metrics: [
+                  { label: "Instagram Followers", value: "2,400+", change: "+450% growth" },
+                  { label: "Avg. Post Engagement", value: "8.2%", change: "High engagement rate" },
+                  { label: "Monthly Reach", value: "15,000+", change: "Consistent growth" },
+                  { label: "Booking Inquiries", value: "+65%", change: "From social media" }
+                ],
+                description: "Transformed Glow Mani Nails' Instagram presence with consistent, professional nail art content. Built an engaged community through strategic posting, hashtag optimization, and community engagement.",
+                link: "https://www.instagram.com/glowmani_nail_bar?igsh=Z2tqNXpvZ2J0cHBq&utm_source=qr"
+              },
+              {
+                client: "GotUtility",
+                service: "Facebook Marketing & Lead Generation",
+                metrics: [
+                  { label: "Facebook Followers", value: "11,200+", change: "Active community" },
+                  { label: "Monthly Post Reach", value: "45,000+", change: "Strong visibility" },
+                  { label: "Engagement Rate", value: "6.8%", change: "Quality interactions" },
+                  { label: "Lead Generation", value: "+120%", change: "Qualified leads" }
+                ],
+                description: "Managed comprehensive Facebook strategy for GotUtility, building a strong community of 11K+ followers. Created engaging content showcasing solar energy solutions and consulting services with consistent posting schedule.",
+                link: "https://www.facebook.com/share/14i1YJedob7/?mibextid=wwXIfr"
+              }
+            ].map((caseStudy, idx) => (
+              <div key={idx} className="bg-white rounded-xl p-8 border-2 border-blue-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <h3 className="text-2xl font-bold text-foreground mb-1">{caseStudy.client}</h3>
+                <p className="text-blue-600 font-semibold mb-4 text-sm">{caseStudy.service}</p>
+                <p className="text-muted-foreground mb-6 leading-relaxed text-sm">{caseStudy.description}</p>
+                
+                <div className="grid grid-cols-2 gap-3 mb-6">
+                  {caseStudy.metrics.map((metric, metricIdx) => (
+                    <div key={metricIdx} className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-4 border border-blue-200">
+                      <p className="text-xs text-muted-foreground mb-1 font-medium">{metric.label}</p>
+                      <p className="font-bold text-lg text-blue-600 mb-1">{metric.value}</p>
+                      <p className="text-xs text-blue-500 font-semibold">{metric.change}</p>
+                    </div>
+                  ))}
+                </div>
+                
+                <a
+                  href={caseStudy.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-3 transition-colors shadow-md hover:shadow-lg"
+                >
+                  View Campaign <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-16 bg-white rounded-xl p-8 border-2 border-blue-200 text-center">
+            <h3 className="text-2xl font-bold text-foreground mb-3">Ready to See Similar Results?</h3>
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">Our proven social media strategies deliver measurable growth for businesses like yours. Let's discuss how we can boost your online presence.</p>
+            <a
+              href="https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20discuss%20social%20media%20management"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg px-8 py-3 transition-colors shadow-md hover:shadow-lg"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Get Your Free Strategy Session
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Contact CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-blue-700">
         <div className="container">
