@@ -12,42 +12,42 @@ export default function Home() {
       title: "Professional Websites",
       description: "Beautiful, responsive websites that showcase your business and convert visitors into customers.",
       price: "From R 2,000",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-web-design-new-ZGfiLk4rd8QVPXzcdTH92x.webp"
+      image: "/assets/service-web-design.webp"
     },
     {
       icon: ShoppingCart,
       title: "Online Store Setup",
       description: "Full e-commerce solutions with product management, payment integration, and order tracking.",
       price: "From R 2,000",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-ecommerce-new-VLQWfvBHAQNDNAxk9A5jDP.webp"
+      image: "/assets/service-web-design.webp"
     },
     {
       icon: Users,
       title: "Social Media Management",
       description: "Strategic Facebook & Instagram management with engaging content and community building.",
       price: "From R 800/month",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-social-media-new-adMQGmsscZiJcAg2BNdqgw.webp"
+      image: "/assets/service-social-media.webp"
     },
     {
       icon: Palette,
       title: "Logo & Design",
       description: "Professional branding assets including logos, posters, and marketing materials.",
       price: "From R 300",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-branding-new-3cgxCZiisxSaYSiLZbNNkQ.webp"
+      image: "/assets/service-social-media.webp"
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description: "Complete digital marketing support including SEO, content strategy, and lead generation.",
       price: "From R 800/month",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-marketing-new-7FmfuJZuPGa5zZpYDyrnd2.webp"
+      image: "/assets/service-marketing.webp"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp Marketing",
       description: "Advanced WhatsApp business integration for direct customer engagement and sales.",
       price: "Custom pricing",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/service-web-design-new-ZGfiLk4rd8QVPXzcdTH92x.webp"
+      image: "/assets/service-web-design.webp"
     }
   ];
 
@@ -56,43 +56,43 @@ export default function Home() {
       name: "Accurate Digital Solutions",
       description: "My Agency - Professional digital marketing & web development services",
       url: "accuratedigitalsolutions.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_accurate_digital-KstNwwdZK5aKMGkBseZhfU.webp"
+      image: "/assets/service-marketing.webp"
     },
     {
       name: "Transformed Cooling",
       description: "HVAC services website with service showcase",
       url: "transformedcooling.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_transformed_cooling-UMRjijD2idhFkyqRTDWLYN.webp"
+      image: "/assets/step-content-creation.webp"
     },
     {
       name: "Joe's Fresh Produce",
       description: "Fresh produce delivery and e-commerce platform",
       url: "joesfreshproduce.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_joes_fresh_produce-9BzaHuTEdtbb7foPDJnWTQ.webp"
+      image: "/assets/step-strategy-planning.webp"
     },
     {
       name: "Glow Mani Nails",
       description: "Beauty salon website with booking system",
       url: "glowmaninails.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_glow_mani_nails-nHgqAdja69ox6dBMyiHpEB.webp"
+      image: "/assets/service-social-media.webp"
     },
     {
       name: "Accura Plumbing",
       description: "Plumbing services website with service catalog",
       url: "accuraplumbing.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_accura_plumbing-6BsB8u7brZgd35TgWhFgYs.webp"
+      image: "/assets/service-web-design.webp"
     },
     {
       name: "Raderies E",
       description: "Professional electrical services and installations",
       url: "raderies-e.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_raderies_e_electrical-Rn3hdNqP4etKummhsHH5yt.webp"
+      image: "/assets/service-web-design.webp"
     },
     {
       name: "EMK Signage & Welding",
       description: "Professional website with service showcase and lead generation",
       url: "emksignagewelding.co.za",
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/portfolio_emk_signage-HHD6LQmNCLyK5nidYmXW7o.webp"
+      image: "/assets/step-content-creation.webp"
     }
   ];
 
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663421171790/TjOIkCUxvOWcRLOg.JPG"
+              src="/assets/accurate-digital-placeholder.svg"
               alt="Accurate Digital Solutions Logo"
               className="w-12 h-12 object-contain rounded-lg"
             />
@@ -142,7 +142,7 @@ export default function Home() {
       <section className="relative overflow-hidden py-20 md:py-40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/hero-background-c7rU5RfvMWxy8faUDeHyQt.webp"
+            src="/assets/step-strategy-planning.webp"
             alt="Team collaboration"
             className="w-full h-full object-cover"
           />
@@ -276,25 +276,25 @@ export default function Home() {
                 step: "Step 1",
                 title: "Strategy & Planning",
                 description: "We analyse your business goals and create a digital marketing strategy tailored to your brand.",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_strategy_planning-gPj79dkFXQz486w8AaVQP6.webp"
+                image: "/assets/step-strategy-planning.webp"
               },
               {
                 step: "Step 2",
                 title: "Content Creation",
                 description: "We design engaging content, visuals, and campaigns that connect with your target audience.",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_content_creation-gYPYVD27mwgkvBDy9QtJEC.webp"
+                image: "/assets/step-content-creation.webp"
               },
               {
                 step: "Step 3",
                 title: "Digital Marketing",
                 description: "We promote your brand using social media, online advertising, and SEO strategies.",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/step_digital_marketing-T6X9LCeHNyvNBiGH834G2H.webp"
+                image: "/assets/service-marketing.webp"
               },
               {
                 step: "Step 4",
                 title: "Growth & Optimization",
                 description: "We track performance and continuously improve campaigns to help your business grow.",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663421171790/3RLyJPDgDiE5D7ycYnPNs7/growth-optimization-MqprAmiFn964f55CwgQuRD.webp"
+                image: "/assets/step-strategy-planning.webp"
               }
             ].map((item, idx) => (
               <div key={idx} className="relative">

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Accurate Digital Solutions temporary logo placeholder">
+  <rect width="1200" height="600" rx="32" fill="#0b1730"/>
+  <circle cx="300" cy="300" r="150" fill="#2f7df6"/>
+  <path d="M240 390V210h120l55 55v125h-65v-115h-45v115z" fill="#fff"/>
+  <text x="520" y="285" fill="#fff" font-family="Arial,sans-serif" font-size="72" font-weight="700">Accurate Digital</text>
+  <text x="525" y="365" fill="#a9c7ff" font-family="Arial,sans-serif" font-size="48">Solutions</text>
+</svg>
