@@ -56,37 +56,37 @@ export default function Home() {
       name: "Transformed Cooling",
       description: "HVAC services website with service showcase",
       url: "transformedcooling.co.za",
-      image: "/assets/step-content-creation.webp"
+      image: "/assets/transformed-cooling-electrical.webp"
     },
     {
       name: "Joe's Fresh Produce",
       description: "Fresh produce delivery and e-commerce platform",
       url: "joesfreshproduce.co.za",
-      image: "/assets/step-strategy-planning.webp"
+      image: "/assets/joes-fresh-produce-delivery.png"
     },
     {
       name: "Glow Mani Nails",
       description: "Beauty salon website with booking system",
       url: "glowmaninails.co.za",
-      image: "/assets/service-social-media.webp"
+      image: "/assets/glowmani-nail-art.jpeg"
     },
     {
       name: "Accura Plumbing",
       description: "Plumbing services website with service catalog",
       url: "accuraplumbing.co.za",
-      image: "/assets/service-web-design.webp"
+      image: "/assets/accura-plumbing-installation.jpg"
     },
     {
       name: "Raderies E",
       description: "Professional electrical services and installations",
       url: "raderies-e.co.za",
-      image: "/assets/service-web-design.webp"
+      image: "/assets/raderies-commercial-solar.webp"
     },
     {
       name: "EMK Signage & Welding",
       description: "Professional website with service showcase and lead generation",
       url: "emksignagewelding.co.za",
-      image: "/assets/step-content-creation.webp"
+      image: "/assets/emk-signage-welding.jpg"
     }
   ];
 
