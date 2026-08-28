@@ -11,42 +11,36 @@ export default function Home() {
       icon: Globe,
       title: "Professional Websites",
       description: "Beautiful, responsive websites that showcase your business and convert visitors into customers.",
-      price: "From R 2,000",
       image: "/assets/service-web-design.webp"
     },
     {
       icon: ShoppingCart,
       title: "Online Store Setup",
       description: "Full e-commerce solutions with product management, payment integration, and order tracking.",
-      price: "From R 2,000",
       image: "/assets/service-web-design.webp"
     },
     {
       icon: Users,
       title: "Social Media Management",
       description: "Strategic Facebook & Instagram management with engaging content and community building.",
-      price: "From R 800/month",
       image: "/assets/service-social-media.webp"
     },
     {
       icon: Palette,
       title: "Logo & Design",
       description: "Professional branding assets including logos, posters, and marketing materials.",
-      price: "From R 300",
       image: "/assets/service-social-media.webp"
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description: "Complete digital marketing support including SEO, content strategy, and lead generation.",
-      price: "From R 800/month",
       image: "/assets/service-marketing.webp"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp Marketing",
       description: "Advanced WhatsApp business integration for direct customer engagement and sales.",
-      price: "Custom pricing",
       image: "/assets/service-web-design.webp"
     }
   ];
@@ -110,7 +104,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <img 
-              src="/assets/accurate-digital-placeholder.svg"
+              src="/assets/ads-logo-cropped.jpg"
               alt="Accurate Digital Solutions Logo"
               className="w-12 h-12 object-contain rounded-lg"
             />
@@ -246,8 +240,7 @@ export default function Home() {
                   
                   <CardContent className="relative pb-6">
                     <p className="text-muted-foreground mb-4 leading-relaxed">{service.description}</p>
-                    <div className="flex items-center justify-between">
-                      <p className="text-sm font-semibold text-blue-600">{service.price}</p>
+                    <div className="flex items-center justify-end">
                       <ArrowRight className="w-4 h-4 text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
                   </CardContent>
