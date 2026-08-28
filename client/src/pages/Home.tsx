@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3">
             <a 
-              href="https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
+              href="https://wa.me/27816672243?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white font-medium transition-colors"
@@ -124,7 +124,7 @@ export default function Home() {
             </a>
             <Button 
               className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
-              onClick={() => window.location.href = "https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"}
+              onClick={() => window.location.href = "https://wa.me/27816672243?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"}
             >
               Free Consultation
             </Button>
@@ -160,7 +160,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
+                href="https://wa.me/27816672243?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg h-12 px-8 transition-colors shadow-lg"
@@ -422,7 +422,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-foreground mb-3">Ready to See Similar Results?</h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">Our proven social media strategies deliver measurable growth for businesses like yours. Let's discuss how we can boost your online presence.</p>
             <a
-              href="https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20discuss%20social%20media%20management"
+              href="https://wa.me/27816672243?text=Hi%20Accurate%2C%20I%27d%20like%20to%20discuss%20social%20media%20management"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg px-8 py-3 transition-colors shadow-md hover:shadow-lg"
@@ -447,7 +447,7 @@ export default function Home() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <a
-                href="https://wa.me/27613218108?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
+                href="https://wa.me/27816672243?text=Hi%20Accurate%2C%20I%27d%20like%20to%20book%20a%20free%20consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 bg-white hover:bg-blue-50 text-blue-600 font-semibold rounded-lg py-4 px-6 transition-colors shadow-lg group"
@@ -466,9 +466,9 @@ export default function Home() {
 
             <div className="mt-10 pt-10 border-t border-blue-400">
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white">
-                <a href="tel:+27613218108" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
+                <a href="tel:+27816672243" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
                   <Phone className="w-5 h-5" />
-                  +27 61 321 8108
+                  +27 81 667 2243
                 </a>
                 <span className="hidden sm:block text-blue-300">•</span>
                 <a href="mailto:rangarira.nr@gmail.com" className="flex items-center gap-2 hover:text-blue-100 transition-colors">
@@ -501,9 +501,9 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Get in Touch</h4>
               <ul className="space-y-2 text-background/80">
-                <li><a href="tel:+27613218108" className="hover:text-background transition flex items-center gap-2"><Phone className="w-4 h-4" /> +27 61 321 8108</a></li>
+                <li><a href="tel:+27816672243" className="hover:text-background transition flex items-center gap-2"><Phone className="w-4 h-4" /> +27 81 667 2243</a></li>
                 <li><a href="mailto:rangarira.nr@gmail.com" className="hover:text-background transition flex items-center gap-2"><Mail className="w-4 h-4" /> rangarira.nr@gmail.com</a></li>
-                <li><a href="https://wa.me/27613218108" className="hover:text-background transition flex items-center gap-2"><MessageCircle className="w-4 h-4" /> WhatsApp</a></li>
+                <li><a href="https://wa.me/27816672243" className="hover:text-background transition flex items-center gap-2"><MessageCircle className="w-4 h-4" /> WhatsApp</a></li>
               </ul>
             </div>
             <div>
